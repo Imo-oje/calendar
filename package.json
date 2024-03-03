@@ -2,7 +2,7 @@
   "name": "calendar",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://imo-oje.githu.io/",
+  "homepage": "https://imo-oje.githu.io/calendar",
   "type": "module",
   "scripts": {
     "dev": "vite",
