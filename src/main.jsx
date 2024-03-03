@@ -7,11 +7,11 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "calender",
+    path: "/calendar/",
     element: <App />,
   },
   {
-    path: "/home",
+    path: "/calendar/home",
     element: <Home />,
   },
 ]);
