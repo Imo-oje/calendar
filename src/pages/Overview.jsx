@@ -1,5 +1,11 @@
+import Layout from "../layout";
+
 const Overview = () => {
-  return <h1>Overview page</h1>;
+  return (
+    <Layout>
+      <p>Overview</p>
+    </Layout>
+  );
 };
 
 export default Overview;

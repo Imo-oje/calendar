@@ -21,25 +21,25 @@ const Navbar = () => {
       id: "btugeio",
       icon: <MdOutlineDashboardCustomize />,
       name: "Overview",
-      path: "/overview",
+      path: "/calendar/overview",
     },
     {
       id: "sdfsdfc",
       icon: <IoPeople />,
       name: "People",
-      path: "/people",
+      path: "/calendar/people",
     },
     {
       id: "pubdfvjk",
       icon: <IoMail />,
       name: "Mail",
-      path: "/mail",
+      path: "/calendar/mail",
     },
     {
       id: "uyrtsc",
       icon: <LuListTodo />,
       name: "Tasks",
-      path: "/tasks",
+      path: "/calendar/tasks",
     },
   ];
 
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
       </div>
       {navBar ? (
-        <div className="hidden md:flex flex-col gap-6 md:w-1/4 lg:w-[12%] bg-secondry h-full transition-all">
+        <div className="hidden md:flex flex-col gap-6 md:w-1/4 lg:w-[12%] h-full transition-all">
           <div className="flex items-center justify-between py-6 px-4">
             <h1 className="text-2xl font-semibold">Logo</h1>
             <div
@@ -82,7 +82,7 @@ const Navbar = () => {
           </div>
         </div>
       ) : (
-        <div className="w-16 h-full pt-6 hidden bg-secondry md:flex flex-col items-center gap-10 transition-all">
+        <div className="w-16 h-full pt-6 hidden md:flex flex-col items-center gap-10 transition-all">
           <div
             data-title="Expand"
             onClick={toggleNavBar}
