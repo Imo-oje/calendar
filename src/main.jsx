@@ -10,23 +10,23 @@ import People from "./pages/People.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/calendar/",
+    path: "calendar/",
     element: <App />,
   },
   {
-    path: "/calendar/overview",
+    path: "calendar/overview",
     element: <Overview />,
   },
   {
-    path: "/calendar/mail",
+    path: "calendar/mail",
     element: <Mail />,
   },
   {
-    path: "/calendar/people",
+    path: "calendar/people",
     element: <People />,
   },
   {
-    path: "/calendar/tasks",
+    path: "calendar/tasks",
     element: <Tasks />,
   },
 ]);
