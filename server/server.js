@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const router = require("./router/routes.js");
+require("./db.js");
 
 const app = express();
 const port = "8080";
